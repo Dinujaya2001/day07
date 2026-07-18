@@ -65,16 +65,20 @@
 
 // console.log(name("Hi Saman") );
 
-const products = [
-    {name:"bun" ,inStock :true},
-    {name:"bat" ,inStock :false},
-    {name:"ball" ,inStock :false},
-    {name:"car" ,inStock :true}
-];
+// const products = [
+//     {name:"bun" ,inStock :true},
+//     {name:"bat" ,inStock :false},
+//     {name:"ball" ,inStock :false},
+//     {name:"car" ,inStock :true}
+// ];
 
-let inStockItems = products.filter(product =>product.inStock==true);
-console.log(inStockItems);
+// let inStockItems = products.filter(product =>product.inStock==true);
+// console.log(inStockItems);
 
-products.forEach(product =>console.log(product));
+// products.forEach(product =>console.log(product));
 
 
+const letterList = ["B","F","A","U","E"];
+
+let sorts = letterList.toSorted();
+console.log(sorts);
