@@ -91,17 +91,50 @@
 // console.log(newEmployeeSalary);
 
 
-const studentList = [
-    {id:"001",name:"Tharaka"},
-    {id:"002",name:"Garuka"},
-    {id:"003",name:"Tharuka"},
-    {id:"004",name:"Sanuka"},
-    {id:"005",name:"Gyanuka"},
-    {id:"006",name:"Lakshika"}
-];
+// const studentList = [
+//     {id:"001",name:"Tharaka"},
+//     {id:"002",name:"Garuka"},
+//     {id:"003",name:"Tharuka"},
+//     {id:"004",name:"Sanuka"},
+//     {id:"005",name:"Gyanuka"},
+//     {id:"006",name:"Lakshika"}
+// ];
 
-let findStudent = studentList.find(student => student.id==="004");
-console.log(findStudent);
+// let findStudent = studentList.find(student => student.id==="004");
+// console.log(findStudent);
+
+
+
+//-----------------------------------JSON-(Javascript object notetion)---------------------------------------------------------------------
+
+
+fetch("/customers.json").then(res=>res.json()).then(data=>{
+    console.log(data);
+    
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

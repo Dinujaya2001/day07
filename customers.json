@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Tharaka",
+        "address": "Galle",
+        "salary": 150000
+    },
+    {
+        "id": 2,
+        "name": "Tharaka",
+        "address": "Matara",
+        "salary": 550000
+    },
+    {
+        "id": 3,
+        "name": "Tharaka",
+        "address": "Hambantota",
+        "salary": 150000
+    },
+    {
+        "id": 4,
+        "name": "Tharaka",
+        "address": "Panadura",
+        "salary": 450000
+    },
+    {
+        "id": 5,
+        "name": "Tharaka",
+        "address": "Colombo",
+        "salary": 350000
+    },
+    {
+        "id": 66,
+        "name": "Tharaka",
+        "address": "Kalutara",
+        "salary": 250000
+    }
+]
