@@ -84,9 +84,24 @@
 // console.log(sorts);
 
 
-const employeeSalary =[100000,550000,65000,80000,75000];
+// const employeeSalary =[100000,550000,65000,80000,75000];
 
-let newEmployeeSalary = employeeSalary.map(salary => salary*2);
+// let newEmployeeSalary = employeeSalary.map(salary => salary*2);
 
-console.log(newEmployeeSalary);
+// console.log(newEmployeeSalary);
+
+
+const studentList = [
+    {id:"001",name:"Tharaka"},
+    {id:"002",name:"Garuka"},
+    {id:"003",name:"Tharuka"},
+    {id:"004",name:"Sanuka"},
+    {id:"005",name:"Gyanuka"},
+    {id:"006",name:"Lakshika"}
+];
+
+let findStudent = studentList.find(student => student.id==="004");
+console.log(findStudent);
+
+
 
