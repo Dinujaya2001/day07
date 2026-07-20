@@ -108,12 +108,39 @@
 //-----------------------------------JSON-(Javascript object notetion)---------------------------------------------------------------------
 
 
-fetch("/customers.json").then(res=>res.json()).then(data=>{
+fetch("https://fakestoreapi.com/products").then(res => res.json()).then(data => {
     console.log(data);
+
+
+
+    let card = document.getElementById("card");
+
+    let body = ""
+
+    data.forEach(element => {
+        body += `
+         <img src="${element.image}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">${element.title}</h5>
+            <p class="card-text">${element.description}</p>
+            <div>
+           <div class="d-flex justify-content-between align-items-center">
+            <h6 class="card-title mb-0">${element.category}</h6>
+            <h6 class="mb-0">${element.rating.rate}/${element.rating.count}</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Buy Now ${element.price}</a>
+        </div>
+
     
+    `
+
+    });
+
+    card.innerHTML = body;
+
+
+
 })
-
-
 
 
 
